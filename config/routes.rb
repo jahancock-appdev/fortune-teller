@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   # Let users visit URLs:
 
   # - /lottery/unlucky
-
+  get("/lottery/unlucky", { :controller => "numbers", :action => "losers"})
   # PART 2: R→C→A→V DEBUGGING
   # ======================
 
